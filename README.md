@@ -12,6 +12,10 @@ The code can be found in 'LT_BERT.ipynb'.
 
 ## 2. Prompting with BERT
 
+The code can be found in 'LT_BERT_Prompt.ipynb'.
+1. Change the file paths to a folder with the data.
+2. Run all cells, if you wish not to remove the topic features avoid running that cell.
+
 ## 3. Prompting with GPT-3
 
 The code can be found in 'LT_GPT3.ipynb'.
@@ -20,3 +24,13 @@ The code can be found in 'LT_GPT3.ipynb'.
 3. Run all cells, if you wish not to remove the topic features avoid running that cell.
 4. The GPT-3 approach has five different methods: few-shot prompt completion, zero-shot classification, few-shot classification, zero-shot QA and few-shot QA. Uncomment the code snippets for the prompts accordingly.
 5. For QA, the engine needs to be changed to 'text-davinci-002' for acceptable results, but be cautious as this is expensive.
+
+---
+
+Other files:
+
+## Data
+In this repository you can also find the Reddit CMV data in train, development and test splits. 
+
+## Template paraphraser
+You can also find the template generator in 'Template_paraphrase.ipynb', where we created templates using the T5 paraphrasing model.
